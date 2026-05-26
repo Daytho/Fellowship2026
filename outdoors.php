@@ -61,7 +61,7 @@
             <img src="/pics/LACRMlogo.png" alt="LACRM Logo" style="float:right;width:45px;height:45px;">
             Developed by: Dayshaun Thompson</p>
         </div>
-        <a class="green" href="index.php" target="_blank">Home</a>
+        <a class="green" href="index.php" target="_blank">⾕</a>
     </footer>
 		<!--  It is the placeholder for a link. You define the destination of a link using the href atribute. Target specifies where to open the linked doc -->
 </html>

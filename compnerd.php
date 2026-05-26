@@ -57,11 +57,14 @@
     <footer class="footer">
         <div>
             <p style="color:rgb(182, 189, 189);"><strong>LACRM First Project</strong></p></div>
-            <p style="color: cadetblue; margin-top: 0px;">
-            <img src="/pics/LACRMlogo.png" alt="LACRM Logo" style="float:right;width:45px;height:45px;">
-            Developed by: Dayshaun Thompson</p>
+            <span style="color: cadetblue; margin-top: 0px;">
+            <img src="/pics/LACRMlogo.png" alt="LACRM Logo" style="float:right; width:45px;height:45px;">
+            Developed by: Dayshaun Thompson
+            <a class="green" href="index.php" target="_blank" style="text-align:center;">⾕</a>
+
+            </span>
+
         </div>
-        <a class="green" href="index.php" target="_blank">Home</a>
     </footer>
 		<!--  It is the placeholder for a link. You define the destination of a link using the href atribute. Target specifies where to open the linked doc -->
 </html>
