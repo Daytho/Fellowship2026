@@ -10,14 +10,7 @@
 
 		<title> Dj's Home Page</title>
 		<style>
-            .green {
-                color: green;
-            }
-            .footer {
-                position: fixed;
-                left: 0;
-                bottom: 0;
-            }
+
         </style>
         <!--This is also where your style tags should go so the browser has access to all of the style prior to trying to load the elements in the body.
          Can be included in body if needed but not common -->
@@ -32,7 +25,7 @@
 
         <div class="wrapper" style="justify-content:space-evenly; height: 300px;">
 		    <div style="text-align: center;">
-                <a href="fitness">
+                <a href="fitness.php">
                     <img src="/pics/hooping.JPG" alt="MoveMent" style="height: 300px; width: 250px;">
                 </a>
             </br>Click for Physical Fitness
@@ -55,15 +48,13 @@
 	</body>
 	
     <footer class="footer">
-        <div>
-            <p style="color:rgb(182, 189, 189);"><strong>LACRM First Project</strong></p></div>
-            <span style="color: cadetblue; margin-top: 0px;">
-            <img src="/pics/LACRMlogo.png" alt="LACRM Logo" style="float:right; width:45px;height:45px;">
+        <div style="width: 100%;">
+            <p style="font-size: 28px; color: cadetblue;"><strong class="lacrm" style="font-size: 24px; color:rgb(182, 189, 189);">LACRM First Project</strong>
+            </br>
+            <a class="green" href="index.php" target="_blank" style="position:relative; float:inline-end;">⾕</a>
+            <img src="/pics/LACRMlogo.png" alt="LACRM Logo" style="float:right;width:45px;height:45px;">
             Developed by: Dayshaun Thompson
-            <a class="green" href="index.php" target="_blank" style="text-align:center;">⾕</a>
-
-            </span>
-
+            </p>
         </div>
     </footer>
 		<!--  It is the placeholder for a link. You define the destination of a link using the href atribute. Target specifies where to open the linked doc -->

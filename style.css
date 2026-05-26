@@ -11,3 +11,18 @@ h1 {
     display: flex;
     color:rgb(182, 189, 189);
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.lacrm{
+    margin-bottom: 5px;
+    padding-bottom: 5px;    
+}

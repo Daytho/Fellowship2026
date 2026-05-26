@@ -8,7 +8,7 @@
         <!-- The character set (pretty much any character you might use) your document is allowed to use and have no issues displaying -->
 		<link rel="stylesheet" href="style.css">
 
-		<title> Dj's Home Page</title>
+		<title> Fitness </title>
 		<style>
             .green {
                 color: green;
@@ -32,16 +32,16 @@
 
         <div class="wrapper" style="justify-content:space-evenly; height: 300px;">
 		    <div style="text-align: center;">
-                <a href="fitness">
-                    <img src="/pics/hooping.JPG" alt="MoveMent" style="height: 300px; width: 250px;">
+                <a href="fitness.php">
+                    <img src="/pics/sectionals.jpeg" alt="MoveMent" style="height: 300px; width: 250px;">
                 </a>
-            </br>Click for Physical Fitness
+            </br>Click for Child Prodigy
             </div>
             <div style="text-align: center;">
                 <a href="outdoors.php">
-                    <img src="/pics/dunk3.png" alt="Outdoors" style="height: 300px; width: 250px;">
+                    <img src="/pics/dunk1.png" alt="Outdoors" style="height: 450px; width: 325px;">
                 </a>
-            </br>Click for Outdoor Activities
+            </br>Click for Jump Progresssion
             </div>
             <div style="text-align: center;">
                 <a href="compnerd.php">
@@ -55,13 +55,14 @@
 	</body>
 	
     <footer class="footer">
-        <div>
-            <p style="color:rgb(182, 189, 189);"><strong>LACRM First Project</strong></p></div>
-            <p style="color: cadetblue; margin-top: 0px;">
+        <div style="width: 100%;">
+            <p style="font-size: 28px; color: cadetblue;"><strong class="lacrm" style="font-size: 24px; color:rgb(182, 189, 189);">LACRM First Project</strong>
+            </br>
+            <a class="green" href="index.php" target="_blank" style="position:relative; float:inline-end;">⾕</a>
             <img src="/pics/LACRMlogo.png" alt="LACRM Logo" style="float:right;width:45px;height:45px;">
-            Developed by: Dayshaun Thompson</p>
+            Developed by: Dayshaun Thompson
+            </p>
         </div>
-        <a class="green" href="index.php" target="_blank">⾕</a>
     </footer>
 		<!--  It is the placeholder for a link. You define the destination of a link using the href atribute. Target specifies where to open the linked doc -->
 </html>
