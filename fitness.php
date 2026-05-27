@@ -39,7 +39,7 @@
             </div>
             <div style="text-align: center;">
                 <a href="outdoors.php">
-                    <img src="/pics/dunk1.png" alt="Outdoors" style="height: 450px; width: 325px;">
+                    <img src="/pics/dunk1.png" alt="Outdoors" style="height: 500px; width: 350px;">
                 </a>
             </br>Click for Jump Progresssion
             </div>
@@ -47,7 +47,7 @@
                 <a href="compnerd.php">
                     <img src="/pics/ballPlalm.jpeg" alt="Computer Nerd" style="height: 300px; width: 250px;">
                 </a>
-                </br>Click for Computer Projects
+                </br>Click for Court Therapy
             </div>
         </div>
 

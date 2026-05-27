@@ -1,6 +1,5 @@
 <!DOCTYPE html>
     <!-- The root that wraps all of the content on the page -->
-	
 	<head>
         <!-- Everything that we want to include on our webpage on initial load but keep hidden from the webpage visitor goes here. -->
 		
