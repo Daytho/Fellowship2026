@@ -40,13 +40,13 @@
             </br>Click for Physical Fitness
             </div>
             <div style="text-align: center;">
-                <a href="outdoors.php">
+                <a href="outdoors.php?postId=2">
                     <img src="/pics/fishingpic.PNG" alt="Outdoors" style="height: 300px; width: 250px;">
                 </a>
             </br>Click for Outdoor Activities
             </div>
             <div style="text-align: center;">
-                <a href="compnerd.php">
+                <a href="compnerd.php?postId=3">
                     <img src="/pics/building.JPG" alt="Computer Nerd" style="height: 300px; width: 250px;">
                 </a>
                 </br>Click for Computer Projects
