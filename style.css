@@ -1,5 +1,6 @@
 body {
     background-color:rgb(45, 50, 71);
+    
 }
 
 h1 {
@@ -13,25 +14,27 @@ h1 {
 }
 
 .footer {
+    background-color:rgb(45, 50, 71);
     position: fixed;
-    left: 0;
+    display: flex;
+    width: 95%;
+    height: 95px;
+    align-items: center;
+    left: 2;
     bottom: 0;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 10px;
 }
 
 .lacrm{
-    margin-bottom: 5px;
-    padding-bottom: 5px;    
+    /* margin-bottom: 5px;
+    padding-bottom: 5px;     */
 }
 .green {
     color: green;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
+
+

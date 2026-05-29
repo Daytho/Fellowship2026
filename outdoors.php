@@ -1,6 +1,6 @@
 <?php
     include('include/init.php');
-    echoHeader('Outdoors', 'Outdoor Activities');
+    echoHeader('Outdoors', 'Outdoor Activities', '');
 ?>
 
 	<body>

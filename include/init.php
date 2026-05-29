@@ -9,5 +9,6 @@
     include('db_query.php');
     include('common_components.php');
     include('posts.php');
+    include('helper_functions.php');
 
     // -----------------------------------------------
