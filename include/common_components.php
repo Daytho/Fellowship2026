@@ -23,13 +23,13 @@
         echo "
             <footer class='footer'>
                 <div>
-                    <p style='font-size: 28px; color: slategrey;'><strong class='lacrm' style='font-size: 24px;'>LACRM First Project</strong>
+                    <p><strong style='font-size: 24px;'>LACRM First Project</strong>
                     </br>
                     <img src='/pics/LACRMlogo.png' alt='LACRM Logo' style='float:right;width:45px;height:45px;'>
                     Developed by: Dayshaun Thompson
                     </p>
                 </div>
-                <a href='index.php' target='_blank' style='margin: auto;'>⾕</a>
+                <a href='index.php' target='_blank' style='margin: auto; color: slategrey;'>⾕</a>
             </footer>
         </html>
     ";

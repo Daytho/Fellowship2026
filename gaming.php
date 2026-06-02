@@ -6,7 +6,7 @@
     $content = $post['content'];
 ?>
     <body>
-        <div class='wrapper' style='justify-content:space-evenly; height: 300px;'>
+        <div class='wrapper' style='justify-content:space-evenly; height: 350px;'>
             <img src='/pics/32k.jpeg' alt='32 Kill Game' style='height: 350px; width: 275px;'>
         </div>
         <div class='wrapper' style='justify-content:center; text-align:center; margin-top: 25px;'>

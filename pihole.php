@@ -5,7 +5,7 @@
     $post = getPost($postId);
     $content = $post['content'];
 ?>
-    <body style="min-height:100%;">
+    <body>
         <div class='wrapper' style='justify-content:space-evenly; height: 350px;'>
             <img src='/pics/phole.jpeg' alt='32 Kill Game' style='height: 275px; width: 350px;'>
         </div>

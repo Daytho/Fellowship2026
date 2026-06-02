@@ -1,6 +1,7 @@
 body {
     background-color:rgb(45, 50, 71);
-    
+    height:100%;
+    overflow:auto;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
     background-color:rgb(45, 50, 71);
     position: fixed;
     display: flex;
-    width: 95%;
+    width: 81%;
     height: 95px;
     align-items: center;
     left: 2;
@@ -26,15 +27,7 @@ h1 {
     margin-bottom: 0px;
     padding-bottom: 0px;
     padding-top: 10px;
+    font-size: 28px;
+    color: slategrey;
 }
-
-.lacrm{
-    /* margin-bottom: 5px;
-    padding-bottom: 5px;     */
-}
-.green {
-    color: green;
-}
-
-
 

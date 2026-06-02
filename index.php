@@ -1,9 +1,9 @@
 <?php
     include('include/init.php');
     echoHeader('DJs Home Page', 'Dayshaun Thompson', 'Plugged In vs Logged Off', $isIndex = true);
-    bodyPics('fitness', 'hooping.JPG', 'My Journey to Living a Fit Lifestyle', 'Click for Physical Fitness',
-            'outdoors', 'fishingpic.PNG', 'My Love for The Great Outdoors', 'Click for Outdoor Activities',
-            'compnerd', 'building.JPG', 'Becoming a Briliant Computer Nerd', 'Click for Computer Projects');
+    bodyPics('fitness.php', 'hooping.JPG', 'My Journey to Living a Fit Lifestyle', 'Click for Physical Fitness',
+            'outdoors.php', 'fishingpic.PNG', 'My Love for The Great Outdoors', 'Click for Outdoor Activities',
+            'compnerd.php', 'building.JPG', 'Becoming a Briliant Computer Nerd', 'Click for Computer Projects');
 
 ?>
 	<!-- <body>

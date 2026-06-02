@@ -8,7 +8,7 @@
     // debugOutput($post);
    
 ?>
-    <body style="height:100%; overflow:auto;">
+    <body>
         <div class='wrapper' style='justify-content:space-evenly; height: 350px;'>
             <video height: 350px; width: 300px; autoplay loop muted>
                 <source src="/vids/pcvid.mp4" type="video/mp4">
