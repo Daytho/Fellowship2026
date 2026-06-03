@@ -4,11 +4,8 @@
     $title = get_title($postId);
     $content = get_content($postId);
 
-    echoHeader('PC Gaming', 'Plugged In', $title);
-
-
+    echoHeader('PC Gaming', 'Plugged In', $title, false);
 ?>
-    <body>
         <div class='wrapper' style='justify-content: space-evenly; height: 350px;'>
             <img src='/pics/32k.jpeg' alt='32 Kill Game' style='height: 350px; width: 275px;'>
         </div>

@@ -1,5 +1,4 @@
 <?php
-
     // TODO 1: Create a getAllPosts() function that returns an arrayof all posts
     function getAllPosts () {
 		$posts = [
@@ -56,7 +55,6 @@
 		];	
 		return $posts;
 	}
-
     function getPosts() {
         $posts = dbQuery("
             select *
@@ -73,4 +71,32 @@
             where postId = $postId
             ")->fetch();
         return $post;
+    }
+    //get all comments for specified post
+    function getPostComments($postId) {
+        $postComments = dbQuery("
+            select *
+            from comments
+            where postId = $postId
+        ")->fetchAll();
+        return $postComments;
+    }
+    //get all users who commented on specified post
+    function getPostusers($userIdString) {
+        $postUsers = dbQuery("
+            select *
+            from users
+            where userId in $userIdString
+        ")->fetchAll();
+        return $postUsers;
+    }
+    //get comments and commenters for specified post
+    function getPostCommentsAndCommenters($postId){
+        $postCommentsandCommenters = dbQuery("
+            select *
+            from comments
+            inner join users on user.userId = comments.userID
+            where comments.postId = $postId
+        ")->fetchAll();
+        return $postCommentsandCommenters;
     }

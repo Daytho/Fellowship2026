@@ -3,17 +3,16 @@
     function echoFooter() {
         echo "
             <footer class='footer'>
-                <div style='flex: 1; justify-content: flex-start;'>
-                    <p><strong style='font-size: 24px;'>LACRM First Project</strong>
-                    </br>
+                <div class='footer-left'>
+                    <p><strong style='font-size: 24px;'>LACRM First Project</strong></p>
+                    <p>Developed by: Dayshaun Thompson
                     <img class='crmlogo' src='/pics/LACRMlogo.png' alt='LACRM Logo'>
-                    Developed by: Dayshaun Thompson
                     </p>
                 </div>
-                <div style='display:flex; flex: 1; justify-content: center;'>
+                <div class='footer-center'>
                     <a href='index.php' target='_blank' style=' color: slategrey;'>⾕</a>
                 </div>
-                <div style='flex: 1;'></div>
+                <div class'footer-right'></div>
             </footer>
         </html>
     ";
@@ -35,7 +34,6 @@
                         <h2>$secondline</h2>
                         
                     </header>
-
             ";
         }else{
             echo "
@@ -51,7 +49,6 @@
                         <h1>$pagetitle</h1>
                         <h2>$secondline</h2> 
                     </header>
-
             ";
         }
     }
@@ -80,7 +77,6 @@
                                 </br>$capt3
                             </div>
                         </div>
-
                 ";
             }else{
                 echo "
@@ -105,7 +101,6 @@
                                 </br>$capt3
                             </div>
                         </div>
-
                 ";
             }
     }

@@ -4,11 +4,10 @@
     $title = get_title($postId);
     $content = get_content($postId);
 
-    echoHeader('Pi-hole Project', 'Plugged In', $title);
+    echoHeader('Pi-hole Project', 'Plugged In', $title, false);
 ?>
-    <body>
-        <div class='wrapper' style='justify-content: space-evenly; height: 350px;'>
-            <img src='/pics/phole.jpeg' alt='32 Kill Game' style='height: 275px; width: 350px;'>
+        <div class='wrapper' style='justify-content: space-evenly; height: 275px;'>
+            <img src='/pics/phole.jpeg' alt='Pi-hole Admin Page' style='height: 275px; width: 350px;'>
         </div>
         <div class='wrapper content'>
             <p style="width:75%;">
@@ -18,7 +17,6 @@
             </p>
         </div>
     </body>
-
 <?php
     echoFooter();
 ?>
