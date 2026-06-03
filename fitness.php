@@ -1,9 +1,12 @@
 <?php
     include('include/init.php');
-    echoHeader('DJs Fitness Journey', 'My Journey to a', 'Fit Lifesytle',);
+    echoHeader('DJs Fitness Journey', 'My Journey to a', 'Fit Lifesytle', true);
+    bodyPics('child-prodigy.php', 'sectionals.jpeg', 'Early Hoop Journey', 'Click for Child Prodigy',
+            'jump-progession.php', 'dunk1.png', 'Jumping like Jordan', 'Click for Jump Progression',
+            'court-therapy.php', 'ballPlalm.jpeg', 'Theraputic Hooping', 'Click for Court Therapy', true);
 ?>
 
-	<body>
+	<!-- <body>
         <div class="wrapper" style="justify-content:space-evenly; align-items:center;">
 		    <div style="text-align: center;">
                 <a href="fitness.php">
@@ -23,9 +26,7 @@
                 </a>
                 </br>Click for Computer Projects
             </div>
-        </div>
-
-
+        </div> -->
 	</body>
 	
 <?php
