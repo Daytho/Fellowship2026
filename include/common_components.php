@@ -104,14 +104,12 @@
                 ";
             }
     }
-
     function get_title($postId) {
         $post = getPost($postId);
         $title = $post['title'];
 
         return $title;
     }
-
     function get_content($postId) {
         $post = getPost($postId);
         $content = $post['content'];

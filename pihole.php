@@ -1,6 +1,6 @@
 <?php
     include('include/init.php');
-    $postId = $_REQUEST['postId'];
+    $postId = htmlspecialchars($_GET['postId']);
     $title = get_title($postId);
     $content = get_content($postId);
 

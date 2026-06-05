@@ -1,10 +1,8 @@
 <?php
     include('include/init.php');
-    echoHeader('Wildlife', 'Logged Off', 'Wildlife Encounters', false);
+    echoHeader('DJs - Wildlife', 'Logged Off', 'Wildlife Encounters', false);
 ?>
-
-
-
+    </body>
 <?php
     echoFooter();
 ?>

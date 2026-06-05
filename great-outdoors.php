@@ -1,10 +1,8 @@
 <?php
     include('include/init.php');
-    echoHeader('Great Outdoors', 'Logged Off', 'The Beauty of The Great Outdoors', true);
+    echoHeader('DJs - Great Outdoors', 'Logged Off', 'Beauty of The Great Outdoors', true);
 ?>
-
-
-
+    </body>
 <?php
     echoFooter();
 ?>

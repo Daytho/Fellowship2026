@@ -1,10 +1,10 @@
 <?php
     include('include/init.php');
-    $postId = $_REQUEST['postId'];
+    $postId = htmlspecialchars($_GET['postId']);
     $title = get_title($postId);
     $content = get_content($postId);
 
-    echoHeader('PC Builder', 'Plugged In', $title, false);
+    echoHeader('Dj - PC Builder', 'Plugged In', $title, false);
 ?>
         <div class='wrapper' style='justify-content: space-evenly; height: 350px;'>
             <video height: 350px; width: 300px; autoplay loop muted>
